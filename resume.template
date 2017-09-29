@@ -4,15 +4,28 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{basics.firstName}} {{basics.lastName}}</title>
+    <title>{{basics.name}} {{basics.firstName}} {{basics.lastName}}</title>
     <link href="https://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet" />
-   <style>
+    <style media="print">
+      body {
+        padding: 60px !important;
+      }
+      .col-md-3 {
+        width: 25% !important;
+        float: left !important;
+      }
+      .col-md-9 {
+        width: 75% !important;
+        float: left !important;
+      }
+      .col-md-6, .col-sm-12 {
+        width: 50% !important;
+        float: left !important;
+      }
     </style>
-
-  
   </head>
   <body>
-    <div class="container">
+  <div class="container">
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="row">
