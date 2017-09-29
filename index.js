@@ -14,6 +14,14 @@ function render(resumeObject) {
 			w.endDateYear = 'Present'
 		}
 	});
+	_.each(resumeObject.volunteer, function(w){
+		w.startDateYear = w.startDate.substr(0,4);
+		if(w.endDate) {
+			w.endDateYear = w.endDate.substr(0,4);
+		} else { 
+			w.endDateYear = 'Present'
+		}
+	});
 	_.each(resumeObject.education, function(e){
     if( !e.area || !e.studyType ){
       e.educationDetail = (e.area == null ? '' : e.area) + (e.studyType == null ? '' : e.studyType);
