@@ -71,6 +71,29 @@
       </section>
       {{/work.length}} 
 
+      {{#volunteer.length}}
+      <section class="row">
+        <header class="col-md-3">
+          <h3>Volunteer projects</h3>
+        </header>
+        <div class="col-md-9">
+          <div class="skills">
+            {{#volunteer}}
+            <h3>{{organization}}</h3>
+            <strong>{{position}}</strong>
+            <p>{{startDateYear}} - {{endDateYear}}</p>
+            <p>{{summary}}</p>
+            <ul>
+              {{#highlights}}
+              <li>{{.}}</li>
+              {{/highlights}}
+            </ul>
+            <hr />{{/volunteer}}
+          </div>
+        </div>
+      </section>
+      {{/volunteer.length}} 
+
       {{#education.length}}
       <section class="row">
         <header class="col-md-3">
