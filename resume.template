@@ -48,6 +48,7 @@
         {{/profiles.github}}
         </div>
       </section>
+      
       {{#work.length}}
       <section class="row">
         <header class="col-md-3">
@@ -117,6 +118,30 @@
         </div>
       </section>
       {{/education.length}} 
+      
+      {{#publications.length}}
+      <section class="row">
+        <header class="col-md-3">
+          <h3>Publications</h3>
+        </header>
+        <div class="col-md-9">
+          <div class="skills">
+            {{#publications}}
+            <h3>{{name}}</h3>
+            <strong>{{publisher}}</strong>
+            <p>{{releaseDate}}</p>
+            <p>{{summary}}</p>
+            <ul>
+              {{#highlights}}
+              <li>{{.}}</li>
+              {{/highlights}}
+            </ul>
+            <hr />{{/publications}}
+          </div>
+        </div>
+      </section>
+      {{/work.publications}} 
+      
       {{#skills.length}}
       <section class="row">
         <header class="col-md-3">
@@ -141,6 +166,7 @@
         </div>
       </section>
       {{/skills.length}}
+      
       {{#references.length}}
       <section class="row">
         <header class="col-md-3">
