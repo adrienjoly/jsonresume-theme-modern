@@ -1,6 +1,6 @@
 {
-  "name": "jsonresume-theme-modern",
-  "version": "0.0.18",
+  "name": "jsonresume-theme-modernfull",
+  "version": "0.0.19",
   "description": "jsonresume-theme-modern =======================",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsonresume/jsonresume-theme-modern.git"
+    "url": "https://github.com/adrienjoly/jsonresume-theme-modernfull.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jsonresume/jsonresume-theme-modern/issues"
-  },
-  "homepage": "https://github.com/jsonresume/jsonresume-theme-modern",
   "dependencies": {
     "gravatar": "^1.0.6",
     "lodash": "^2.4.1",
