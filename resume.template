@@ -140,7 +140,7 @@
           </div>
         </div>
       </section>
-      {{/work.publications}} 
+      {{/publications.length}} 
       
       {{#skills.length}}
       <section class="row">
