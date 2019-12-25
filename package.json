@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-modernfull",
-  "version": "0.0.21",
+  "version": "0.1.0",
   "description": "jsonresume-theme-modern =======================",
   "main": "index.js",
   "scripts": {
