@@ -66,12 +66,12 @@
       </section>
       
       {{#work.length}}
-      <section class="row">
+      <section class="row section-work">
         <header class="col-md-3">
           <h3>Work Experience</h3>
         </header>
         <div class="col-md-9">
-          <div class="skills">
+          <div>
             {{#work}}
             <h3>{{company}}</h3>
             <strong>{{position}}</strong>
@@ -89,12 +89,12 @@
       {{/work.length}} 
 
       {{#volunteer.length}}
-      <section class="row">
+      <section class="row section-volunteer">
         <header class="col-md-3">
           <h3>Volunteer projects</h3>
         </header>
         <div class="col-md-9">
-          <div class="skills">
+          <div>
             {{#volunteer}}
             <h3>{{organization}}</h3>
             <strong>{{position}}</strong>
@@ -112,12 +112,12 @@
       {{/volunteer.length}} 
 
       {{#education.length}}
-      <section class="row">
+      <section class="row section-education">
         <header class="col-md-3">
           <h3>Education</h3>
         </header>
         <div class="col-md-9">
-          <div class="skills">
+          <div>
             {{#education}}
             <h3>{{institution}}</h3>
             <h4>{{educationDetail}}</h4>
@@ -136,12 +136,12 @@
       {{/education.length}} 
       
       {{#publications.length}}
-      <section class="row">
+      <section class="row section-publications">
         <header class="col-md-3">
           <h3>Publications</h3>
         </header>
         <div class="col-md-9">
-          <div class="skills">
+          <div>
             {{#publications}}
             <h3>{{name}}</h3>
             <strong>{{publisher}}</strong>
@@ -159,12 +159,12 @@
       {{/publications.length}} 
       
       {{#skills.length}}
-      <section class="row">
+      <section class="row section-skills">
         <header class="col-md-3">
           <h3>Skills</h3>
         </header>
         <div class="col-md-9">
-          <div class="row-fluid skills">
+          <div class="row-fluid">
             {{#skills}}
             <ul class="col-md-6">
 
@@ -184,12 +184,12 @@
       {{/skills.length}}
       
       {{#references.length}}
-      <section class="row">
+      <section class="row section-references">
         <header class="col-md-3">
           <h3>References</h3>
         </header>
         <div class="col-md-9">
-          <div class="row-fluid skills">
+          <div class="row-fluid">
             {{#references}}
 
             <p>{{reference}} -
