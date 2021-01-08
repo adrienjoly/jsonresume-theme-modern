@@ -25,6 +25,10 @@
         width: 50% !important;
         float: left !important;
       }
+      .section-about > div,
+      .section-references > div {
+        margin-top: 24px;
+      }
     </style>
   </head>
   <body>
@@ -43,7 +47,7 @@
         </div>
         </div>
       <hr style="color: #ccc; height: 4px;" />
-      <section class="row">
+      <section class="row section-about">
         <header class="col-md-3">
           <h3>About</h3>
         </header>
